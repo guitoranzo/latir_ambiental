@@ -34,17 +34,151 @@
       }
     </style>
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for this -->
     <link href="css/features.css" rel="stylesheet" />
+    <link href="css/carousel.css" rel="stylesheet" />
   </head>
   <body>
+    <!-- header / nav -->
+    <header>
+      <nav></nav>
+    </header>
+    <!-- main -->
     <main>
-      <div>
+      <!-- <div>
         <h6 style="flex-basis: 100%; text-align: center">
           Isla de la Juventud, un Paraiso Escondido.
         </h6>
         <h1 style="flex-basis: 100%; text-align: center">Latir Ambiental</h1>
+      </div> -->
+      <!-- carrucel -->
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Botones del Carrucel -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <!-- View 1 -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect width="100%" height="100%" fill="#777" />
+            </svg> -->
+            <img
+              src="images/galeria/20221222_103848-B.jpg"
+              alt="Playa del Hotel Colony"
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            />
+            <!-- Áreas Protegidas -->
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Áreas Protegidas</h1>
+                <p>
+                  Áreas Protegidas del Municipio Especial Isla de la Juventud
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Lea más</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/galeria/20221222_103848-B.jpg"
+              alt="Playa del Hotel Colony"
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            />
+            <!-- Isla de la Juventud -->
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Municipio Especial Isla de la Juventud</h1>
+                <p>Un Paraiso Escondido</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Lea más</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/galeria/20221222_103848-B.jpg"
+              alt="Playa del Hotel Colony"
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            />
+            <!-- Cayo Largo -->
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Cayo Largo</h1>
+                <p>
+                  Uno de los mejores polos turistico, famoso por sus playas y
+                  arenas
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Lea más</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
       </div>
+      <!-- container -->
       <div class="container px-4 py-5" id="featured-3">
         <h2 class="pb-2 border-bottom">
           Valoración Económica de Ecosistemas en Áreas Protegidas:
@@ -304,9 +438,13 @@
             <!-- <i class="fas fa-calendar"></i> -->
             <h4 class="fw-bold mb-0">Recursos</h4>
             <ul class="list-unstyled text-small">
-              <li><a class="link-secondary" href="#">Frases</a></li>
-              <li><a class="link-secondary" href="#">Efemérides</a></li>
-              <li><a class="link-secondary" href="#">Biografía</a></li>
+              <li><a class="link-secondary" href="frases.html">Frases</a></li>
+              <li>
+                <a class="link-secondary" href="efemerides.html">Efemérides</a>
+              </li>
+              <li>
+                <a class="link-secondary" href="biografia.html">Biografía</a>
+              </li>
             </ul>
           </div>
           <!--  -->
