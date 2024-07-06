@@ -1,155 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Guillermo Toranzo Perez" />
+    <meta name="generator" content="Hugo 0.84.0" />
     <title>Latir Ambiental</title>
 
-    <link rel="stylesheet" href="style.css" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.0/examples/features/"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="icon" type="image/png" href="images/faviconX400.png" />
-    <style>
-      body {
-        /* display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0; */
 
-        padding-top: 0px;
-        padding-bottom: 0px;
-        background-color: #cceceb;
-        width: auto;
-        border: 0px;
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.min.css" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
       }
     </style>
+
+    <!-- Custom styles for this template -->
+    <link href="css/features.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- frase -->
-    <div>
-      <h3 style="flex-basis: 100%; text-align: center">
-        Isla de la Juventud, un Paraiso Escondido.
-      </h3>
-    </div>
-    <!-- titulo -->
-    <div>
-      <h1 style="flex-basis: 100%; text-align: center">Latir Ambiental</h1>
-    </div>
-    <!-- cuerpo -->
-    <div class="container">
-      <!-- <div class="row">
-        <div class="col">
-          <a href="page1.html">Áreas Protegidas</a>
-        </div>
-        <div class="col"></div>
-        <div class="col">
-          <a href="page2.html">Isla de la Juventud</a>
-        </div>
-        <div class="col"></div>
-        <div class="col">
-          <a href="page3.html">Cayo Largo</a>
-        </div>
-      </div> -->
-      <div class="row">
-        <p></p>
-        <div>
-          <h4>Valoración Económica de Ecosistemas en Áreas Protegidas:</h4>
-        </div>
-        <p></p>
-        <div class="col">
-          <a href="page4.html">BOSQUES</a>
-        </div>
-        <div class="col"></div>
-        <div class="col">
-          <a href="page5.html">MANGLAR</a>
-        </div>
-        <div class="col"></div>
-        <div class="col">
-          <a href="page6.html">PLAYAS</a>
+    <main>
+      <div>
+        <h6 style="flex-basis: 100%; text-align: center">
+          Isla de la Juventud, un Paraiso Escondido.
+        </h6>
+        <h1 style="flex-basis: 100%; text-align: center">Latir Ambiental</h1>
+      </div>
+      <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">
+          Valoración Económica de Ecosistemas en Áreas Protegidas:
+        </h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon bg-primary bg-gradient">
+              <!-- <i class="fas fa-tree" style="color: green"></i> -->
+              <i class="fas fa-tree"></i>
+            </div>
+            <h2>Bosques</h2>
+            <p>Texto de Bosques.</p>
+            <a href="#" class="icon-link">
+              Acceder para más información
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#chevron-right" />
+              </svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon bg-primary bg-gradient">
+              <!-- <i class="fas fa-leaf"></i> -->
+              <i class="fas fa-seedling"></i>
+            </div>
+            <h2>Manglares</h2>
+            <p>Texto de Manglares.</p>
+            <a href="#" class="icon-link">
+              Acceder para más información
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#chevron-right" />
+              </svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon bg-primary bg-gradient">
+              <i class="fas fa-umbrella-beach"></i>
+            </div>
+            <h2>Playas</h2>
+            <p>Texto de las Playas</p>
+            <a href="#" class="icon-link">
+              Acceder para más información
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#chevron-right" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
 
-      <div class="row">
-        <p></p>
-        <div><h4>Nuevas Legislaciones</h4></div>
-        <p></p>
-        <div class="col">
-          <a
-            class="pdf"
-            target="_blank"
-            href="docs/legislaciones/Ley_150-goc-No87-2023.pdf"
-          >
-            <img width="25" src="images/pdf.png" />
-            <span>
-              Ley 150/2022 “Del Sistema de los Recursos Naturales y el Medio
-              Ambiente” de Gaceta Oficial No. 87 Ordinaria de 13 de septiembre
-              de 2023
-            </span>
-          </a>
-        </div>
-        <div class="col"></div>
-        <div class="col">
-          <a
-            class="pdf"
-            target="_blank"
-            href="docs/legislaciones/Ley_155-goc-No84-2023.pdf"
-          >
-            <img width="25" src="images/pdf.png" />
-            <span>
-              Ley 155/2022 “Ley General de Protección al Patrimonio Cultural y
-              al Patrimonio Natural” de Gaceta Oficial No. 84 Ordinaria de 7 de
-              septiembre de 2023
-            </span>
-          </a>
-        </div>
-        <div class="col"></div>
-        <div class="col">
-          <a
-            class="pdf"
-            target="_blank"
-            href="docs/legislaciones/DL_AP_concilado_DJ_ANPP-11.9.23.pdf"
-          >
-            <img width="25" src="images/pdf.png" />
-            <span> DL AP concilado DJ ANPP 11.9.23</span>
-          </a>
+      <div class="b-example-divider"></div>
+
+      <div class="container px-4 py-5" id="hanging-icons">
+        <h2 class="pb-2 border-bottom">Nuevas Legislaciones</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <!--  -->
+              <!-- <i class="fas fa-scroll"></i> -->
+              <i class="fas fa-book-open"></i>
+            </div>
+            <div>
+              <h2>
+                Ley del “Sistema de los Recursos Naturales y el Medio Ambiente”
+              </h2>
+              <p>
+                Ley 150/2022 “Del Sistema de los Recursos Naturales y el Medio
+                Ambiente” de Gaceta Oficial No. 87 Ordinaria de 13 de septiembre
+                de 2023.
+              </p>
+              <a
+                href="docs/legislaciones/Ley_150-goc-No87-2023.pdf"
+                class="btn btn-primary"
+                >Descargar</a
+              >
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <!--  -->
+              <i class="fas fa-journal-whills"></i>
+            </div>
+            <div>
+              <h2>
+                Ley General de “Protección al Patrimonio Cultural y al
+                Patrimonio Natural”
+              </h2>
+              <p>
+                Ley 155/2022 “Ley General de Protección al Patrimonio Cultural y
+                al Patrimonio Natural” de Gaceta Oficial No. 84 Ordinaria de 7
+                de septiembre de 2023.
+              </p>
+              <a href="#" class="btn btn-primary">Descargar</a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <!--  -->
+              <i class="fas fa-book-reader"></i>
+            </div>
+            <div>
+              <h2>DL AP concilado DJ ANPP</h2>
+              <p>DL AP concilado DJ ANPP 11.9.23.</p>
+              <a href="#" class="btn btn-primary"> Descargar </a>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="row">
-        <p></p>
-        <div><h4>Galeria</h4></div>
-        <p></p>
-        <!-- <div class="col"><a href="imagenes.html">Imágenes</a></div>
-        <div class="col"></div> -->
-        <div class="col"><a href="afiches.html">Afiches</a></div>
-        <div class="col"></div>
-        <div class="col"><a href="videos.html">Videos</a></div>
-      </div>
-    </div>
+      <div class="b-example-divider"></div>
 
-    <footer class="pt-5">
-      <div class="container">
-        <!-- <div class="row">
-          <div class="col-md-3 mb-4"><a href="page7.html">Frases</a></div>
-          <div class="col-md-3 mb-4"><a href="page8.html">Efemérides</a></div>
-          <div class="col-md-3 mb-4"><a href="page9.html">Biografía</a></div>
-        </div> -->
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Galería</h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <!-- Afiches <link rel="icon" type="image/png" href="images/faviconX400.png" /> -->
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+              style="background-image: url('images/coti-730x512.jpg')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Afiches</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="images/faviconX400.png"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                      class="rounded-circle border border-white"
+                    />
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Isla de la Juventud</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Fotos -->
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+              style="background-image: url('images/myisla-731x517.jpg')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Fotos</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="images/faviconX400.png"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                      class="rounded-circle border border-white"
+                    />
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Isla de la Juventud</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Videos -->
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+              style="background-image: url('images/myisla-731x517.jpg')"
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Videos</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="images/faviconX400.png"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                      class="rounded-circle border border-white"
+                    />
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Isla de la Juventud</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="b-example-divider"></div>
+      <!-- footer -->
+      <!-- <div class="col d-flex align-items-start"> -->
+      <footer class="container py-5">
         <div class="row">
-          <div class="col-md-3 mb-4"><a href="page10.html">Ayuda</a></div>
-          <div class="col-md-3 mb-4"><a href="page11.html">Contáctenos</a></div>
-          <div class="col-md-3 mb-4"><a href="page12.html">Autores</a></div>
+          <div class="col-12 col-md d-flex">
+            <img
+              src="images/faviconX400.png"
+              alt="Bootstrap"
+              width="32"
+              height="32"
+            />
+            <small class="d-block mb-3 text-muted">&copy; 2024</small>
+          </div>
+
+          <!--  -->
+          <div class="col-4 col-md">
+            <!-- <i class="fas fa-home"></i> -->
+            <h4 class="fw-bold mb-0">Sitios de interés</h4>
+            <ul class="list-unstyled text-small">
+              <li>
+                <a class="link-secondary" href="https://www.citma.gob.cu/"
+                  >CITMA</a
+                >
+              </li>
+              <li>
+                <a class="link-secondary" href="https://idevida.geocuba.cu/"
+                  >IDE de la Tarea Vida</a
+                >
+              </li>
+              <li>
+                <a
+                  class="link-secondary"
+                  href="https://idevida.geocuba.cu/visorij"
+                  >Visor de mapas</a
+                >
+              </li>
+              <li>
+                <a class="link-secondary" href="https://www.uij.edu.cu/"
+                  >Universidad "Jesús Montané Oropesa"</a
+                >
+              </li>
+              <li>
+                <a class="link-secondary" href="https://www.redisla.gob.cu/es/"
+                  >Portal del Ciudadano</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--  -->
+          <div class="col-4 col-md">
+            <!-- <i class="fas fa-calendar"></i> -->
+            <h4 class="fw-bold mb-0">Recursos</h4>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Frases</a></li>
+              <li><a class="link-secondary" href="#">Efemérides</a></li>
+              <li><a class="link-secondary" href="#">Biografía</a></li>
+            </ul>
+          </div>
+          <!--  -->
+          <div class="col-4 col-md">
+            <!-- <i class="fas fa-book-open"></i> -->
+            <h4 class="fw-bold mb-0">Acerca de</h4>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Ayuda</a></li>
+              <li><a class="link-secondary" href="#">Autores</a></li>
+              <li><a class="link-secondary" href="#">Contáctenos</a></li>
+              <li><a class="link-secondary" href="#">Terminos de uso</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </main>
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

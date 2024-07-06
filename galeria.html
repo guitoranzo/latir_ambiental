@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>mio</title>
+    <style type="text/css"></style>
+    <script type="text/javascript">
+      // lista de imágenes a cargar (las que tengan data-src)
+      var imagenesACargar = document.querySelectorAll("img[data-src]");
+      // total de imágenes cargadas
+      var totalImagenesCargadas = -1;
+      // función que carga la siguiente imagen de la lista
+      function cargarImagenesUnaAUna() {
+        // avanzamos a la siguiente imagen de la lista
+        totalImagenesCargadas++;
+        // si existe (aún quedan imágenes)
+        if (imagenesACargar[totalImagenesCargadas]) {
+          // le asignamos esta función al evento onload
+          imagenesACargar[totalImagenesCargadas].onload = cargarImagenesUnaAUna;
+          // cambiamos el src por el valor del data-atributo
+          imagenesACargar[totalImagenesCargadas].src =
+            imagenesACargar[totalImagenesCargadas].dataset.src;
+        }
+      }   
+    </script>
+  </head>
+  <body>
+    <div>
+      <section>
+
+        <img src="images/afiches/La_Cañada_1.jpg" data-src="images/afiches/" />
+        <img src="images/afiches/La_Cañada_2.jpg" data-src="images/afiches/" />
+        <img src="images/afiches/Los_Indios_1.jpg" data-src="images/afiches/Los_Indios_1.jpg" />
+        <img src="images/afiches/Los_Indios_2.jpg" data-src="images/afiches/Los_Indios_2.jpg" />
+        <img src="images/afiches/Los_Cayos_1.jpg" data-src="images/afiches/Los_Cayos_1.jpg" />
+        <img src="images/afiches/Los_Cayos_2.jpg" data-src="images/afiches/Los_Cayos_2.jpg" />
+		    <img src="images/afiches/" data-src="images/galeria/" />
+      </section>
+    </div>    
+    </div>
+  </body>
+</html>

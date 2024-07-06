@@ -19,78 +19,115 @@
     ></script>
     <link rel="icon" type="image/png" href="images/faviconX400.png" />
     <style>
-      .img-fluid {
-        max-width: 100%;
-        height: auto;
+      .img-container {
+        opacity: 0;
+        animation: fadeIn 0.5s ease-in-out forwards;
+      }
+
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .img-container:nth-child(1) {
+        animation-delay: 0s;
+      }
+      .img-container:nth-child(2) {
+        animation-delay: 0.2s;
+      }
+      .img-container:nth-child(3) {
+        animation-delay: 0.4s;
+      }
+      .img-container:nth-child(4) {
+        animation-delay: 0.6s;
+      }
+      .img-container:nth-child(5) {
+        animation-delay: 0.8s;
+      }
+      .img-container:nth-child(6) {
+        animation-delay: 1s;
+      }
+      .img-container:nth-child(7) {
+        animation-delay: 1.2s;
+      }
+      .img-container:nth-child(8) {
+        animation-delay: 1.4s;
       }
     </style>
   </head>
   <body>
     <!-- galeria -->
-
     <div class="container">
-      <div>
-        <a class="menu" target="_blank" href="menu.html">
-          <img width="50" src="images/faviconX128.png" />
-        </a>
-      </div>
       <div class="row">
-        <div class="col-md-3 mb-4">
+        <div class="col-md-6 mb-4 img-container">
           <img
             src="images/afiches/La_Cañada_1.jpg"
             class="img-fluid"
-            alt="La Cañada"
+            alt="Foto 1"
           />
         </div>
-        <div class="col-md-3 mb-4">
+        <div class="col-md-6 mb-4 img-container">
           <img
             src="images/afiches/La_Cañada_2.jpg"
             class="img-fluid"
-            alt="La Cañada"
-          />
-        </div>
-        <div class="col-md-3 mb-4">
-          <img
-            src="images/afiches/Los_Cayos_1.jpg"
-            class="img-fluid"
-            alt="Los Cayos"
-          />
-        </div>
-        <div class="col-md-3 mb-4">
-          <img
-            src="images/afiches/Los_Cayos_2.jpg"
-            class="img-fluid"
-            alt="Los Cayos"
+            alt="Foto 2"
           />
         </div>
       </div>
+      <!--  -->
       <div class="row">
-        <div class="col-md-3 mb-4">
+        <div class="col-md-6 mb-4 img-container">
           <img
             src="images/afiches/Los_Indios_1.jpg"
             class="img-fluid"
-            alt="Los Indios"
+            alt="Foto 5"
           />
         </div>
-        <div class="col-md-3 mb-4">
+        <div class="col-md-6 mb-4 img-container">
           <img
             src="images/afiches/Los_Indios_2.jpg"
             class="img-fluid"
-            alt="Los Indios"
+            alt="Foto 6"
           />
         </div>
-        <div class="col-md-3 mb-4">
+      </div>
+      <!--  -->
+      <div class="row">
+        <div class="col-md-6 mb-4 img-container">
+          <img
+            src="images/afiches/Los_Cayos_1.jpg"
+            class="img-fluid"
+            alt="Foto 3"
+          />
+        </div>
+        <div class="col-md-6 mb-4 img-container">
+          <img
+            src="images/afiches/Los_Cayos_2.jpg"
+            class="img-fluid"
+            alt="Foto 4"
+          />
+        </div>
+      </div>
+      <!--  -->
+      <div class="row">
+        <div class="col-md-6 mb-4 img-container">
           <img
             src="images/afiches/Sur_de_la_Isla_1.jpg"
             class="img-fluid"
-            alt="Sur de la Isla"
+            alt="Foto 7"
           />
         </div>
-        <div class="col-md-3 mb-4">
+        <div class="col-md-6 mb-4 img-container">
           <img
             src="images/afiches/Sur_de_la_Isla_2.jpg"
             class="img-fluid"
-            alt="Sur de la Isla"
+            alt="Foto 8"
           />
         </div>
       </div>
