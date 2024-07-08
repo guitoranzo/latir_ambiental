@@ -7,8 +7,8 @@ body {
 }
 
 .fondo {
-  width: 100%;
-  height: 100%;
+  width: 99%;
+  height: 99%;
   background: url(../images/portada.jpg) no-repeat top left;
   background-size: cover;
   position: absolute;
