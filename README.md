@@ -23,4 +23,4 @@ Es un proyecto web sobre la Tarea Vida en el Municipio Especial de la Isla de la
 
 ### Código QR para acceder a la página.
 
-[![image](https://github.com/guitoranzo/latir_ambiental/tree/main/images/la-color.png)](https://github.com/guitoranzo/latir_ambiental/tree/main/images/la-color.png)
+[![image](https://guitoranzo.github.io/latir_ambiental/images/la-color.png)](https://guitoranzo.github.io/latir_ambiental/images/la-color.png)
