@@ -4,91 +4,234 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Latir Ambiental</title>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      href="bootstrap-5.0.2-dist/css/bootstrap.bundle.min.js"
       rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+
     <link rel="icon" type="image/png" href="images/faviconX400.png" />
   </head>
   <body>
-
     <div class="container my-5">
       <div>
         <a class="menu" target="_blank" href="menu.html">
           <img width="50" src="images/faviconX128.png" />
         </a>
       </div>
-      <h1 class="text-center mb-5">Galería de Videos de Youtube</h1>
-      <div class="row">
-        <!-- https://youtu.be/0Dk1BxearJ8 agua -->
-        <div class="col-md-4 mb-4">
+      <h1 class="text-center mb-5">Galería de Videos en Youtube</h1>
+      <!-- THE FEATURETTES -->
+      <div class="row featurette">
+        <!-- https://youtu.be/0Dk1BxearJ8 El agua -->
+        <div class="col-md-4 mb-3">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/0Dk1BxearJ8?si=XlIJHVA1IjcnveRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/0Dk1BxearJ8?si=XlIJHVA1IjcnveRc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="col-md-10 order-md-2">
+            <h2 class="featurette-heading">
+              El agua.
+              <span class="text-muted">Vealo.</span>
+            </h2>
+            <p class="lead">Si te gustó. ¡Dale me gusta!</p>
           </div>
         </div>
         <!-- https://youtu.be/yU4vlczeSiU Los Arrecifes de la Isla de la Juventud -->
-        <div class="col-md-4 mb-4">
+        <div class="col-md-4 mb-3">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/yU4vlczeSiU?si=mQ8yVEnhPHrA1bhy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/yU4vlczeSiU?si=mQ8yVEnhPHrA1bhy"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="col-md-10 order-md-2">
+            <h2 class="featurette-heading">
+              Los Arrecifes.
+              <span class="text-muted">Vealo.</span>
+            </h2>
+            <p class="lead">Si te gustó. ¡Dale me gusta!</p>
           </div>
         </div>
         <!-- https://youtu.be/YVuHC8z3ysE Los Bosques en la Isla de la Juventud -->
-        <div class="col-md-4 mb-4">
+        <div class="col-md-4 mb-3">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/YVuHC8z3ysE?si=L9EEjNUq-16imkDT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/YVuHC8z3ysE?si=L9EEjNUq-16imkDT"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="col-md-10 order-md-2">
+            <h2 class="featurette-heading">
+              Los Bosques.
+              <span class="text-muted">Vealo.</span>
+            </h2>
+            <p class="lead">Si te gustó. ¡Dale me gusta!</p>
           </div>
         </div>
       </div>
+      <!-- THE FEATURETTES -->
+      <hr class="featurette-divider" />
       <!-- https://youtu.be/bEwmuFXx4R4  Las cotorras en la Isla de la Juventud -->
-      <div class="row">
-        <div class="col-md-4 mb-4">
+      <div class="row featurette">
+        <div class="col-md-4 mb-3">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/bEwmuFXx4R4?si=EugDkZhyMvtO0daN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/bEwmuFXx4R4?si=EugDkZhyMvtO0daN"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="col-md-10 order-md-2">
+            <h2 class="featurette-heading">
+              Las cotorras.
+              <span class="text-muted">Vealo.</span>
+            </h2>
+            <p class="lead">Si te gustó. ¡Dale me gusta!</p>
           </div>
         </div>
         <!-- https://youtu.be/KGiY13Y5_0k La Ceiba en la Isla de la Juventud -->
-        <div class="col-md-4 mb-4">
+        <div class="col-md-4 mb-3">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/KGiY13Y5_0k?si=C65vUzZ9oc2ReLi2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/KGiY13Y5_0k?si=C65vUzZ9oc2ReLi2"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="col-md-10 order-md-2">
+            <h2 class="featurette-heading">
+              La Ceiba.
+              <span class="text-muted">Vealo.</span>
+            </h2>
+            <p class="lead">Si te gustó. ¡Dale me gusta!</p>
           </div>
         </div>
         <!-- https://youtu.be/RWrsEc1NFyM El mármol en la isla de la Juventud -->
-        <div class="col-md-4 mb-4">
+        <div class="col-md-4 mb-3">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/RWrsEc1NFyM?si=W5lay7zeoYZ1zwNW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/RWrsEc1NFyM?si=W5lay7zeoYZ1zwNW"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="col-md-10 order-md-2">
+            <h2 class="featurette-heading">
+              El mármol.
+              <span class="text-muted">Vealo.</span>
+            </h2>
+            <p class="lead">Si te gustó. ¡Dale me gusta!</p>
           </div>
         </div>
       </div>
-
+      <!-- THE FEATURETTES -->
+      <hr class="featurette-divider" />
       <!-- https://youtu.be/NbXK8wgQQjA El Tulipán en la Isla de la Juventud -->
-      <div class="row">
-        <div class="col-md-4 mb-4">
+      <div class="row featurette">
+        <div class="col-md-4 mb-3">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/NbXK8wgQQjA?si=JB1k6Vej1Rd1QszE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/NbXK8wgQQjA?si=JB1k6Vej1Rd1QszE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="col-md-10 order-md-2">
+            <h2 class="featurette-heading">
+              El Tulipán.
+              <span class="text-muted">Vealo.</span>
+            </h2>
+            <p class="lead">Si te gustó. ¡Dale me gusta!</p>
           </div>
         </div>
         <!-- https://youtu.be/cLXGE7UwKKE Ciénaga de Lanier parte I  -->
-        <div class="col-md-4 mb-4">
+        <div class="col-md-4 mb-3">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/cLXGE7UwKKE?si=4uYPh4jft7wB0RD1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/cLXGE7UwKKE?si=4uYPh4jft7wB0RD1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="col-md-10 order-md-2">
+            <h2 class="featurette-heading">
+              Ciénaga de Lanier I.
+              <span class="text-muted">Vealo.</span>
+            </h2>
+            <p class="lead">Si te gustó. ¡Dale me gusta!</p>
           </div>
         </div>
         <!-- Ciénaga de Lanier parte II https://youtu.be/J8_YpOkgjC0 -->
-        <div class="col-md-4 mb-4">
+        <div class="col-md-4 mb-3">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/J8_YpOkgjC0?si=2YW-O_cRLKrFffE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/J8_YpOkgjC0?si=2YW-O_cRLKrFffE8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="col-md-10 order-md-2">
+            <h2 class="featurette-heading">
+              Ciénaga de Lanier II.
+              <span class="text-muted">Vealo.</span>
+            </h2>
+            <p class="lead">Si te gustó. ¡Dale me gusta!</p>
           </div>
         </div>
       </div>
-
-      </div>
+      <!-- THE FEATURETTES -->
+      <hr class="featurette-divider" />
     </div>
   </body>
 </html>
